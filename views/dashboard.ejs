@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Queue App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="counter_container">
+            <p>Welcome to Queue App</p>
+            <div>Now Serving: <div id="now-serving-number"></div></div>
+            <div>Last Issued Numer: <div id="last-issued-number"></div></div>
+            <input id="take" type="button" value="Take A Number">
+        </div>
+        <div class="users"></div>
+    </div>
+    <script src="/dashboard.js"></script>
+</body>
+</html>

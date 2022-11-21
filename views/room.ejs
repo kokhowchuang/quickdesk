@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue APP</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+</head>
+
+<body>
+    <h1 class="room-message"></h1>
+    <div class="window">
+        <div>
+            <button id="operate">Go Offline</button>
+            <button id="complete">Complete Current</button>
+            <button id="call">Call Next</button>
+        </div>
+    </div>
+    <div class="online">
+        <p class="users-online">Users Online</p>
+        <div class="users">
+        </div>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
